@@ -24,10 +24,10 @@ const Header = () => {
   return (
     <section id="hero" className="jumbotron">
       <Container>
+        <video className="video" height="100%" width="100%" autoPlay muted loop>
+          <source src="https://pixabay.com/videos/download/video-44593_source.mp4" />
+        </video>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
-          <video className="video" autoPlay muted loop>
-            <source src="https://vod-progressive.akamaized.net/exp=1595588505~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2882%2F17%2F439413024%2F1919710958.mp4~hmac=379d3bef46b35895e4a4419432b71b2b2bfd87c355ab4f6a00be1ebf502bf477/vimeo-prod-skyfire-std-us/01/2882/17/439413024/1919710958.mp4?filename=Ink+-+44593.mp4" />
-          </video>
           <h1 className="hero-title">
             {title || 'Hi, my name is'}{' '}
             <span className="text-color-main">{name || 'Your Name'}</span>
