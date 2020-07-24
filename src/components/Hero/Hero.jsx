@@ -25,7 +25,7 @@ const Header = () => {
     <section id="hero" className="jumbotron">
       <Container>
         <video className="video" height="100%" width="100%" autoPlay muted loop>
-          <source src="https://pixabay.com/videos/download/video-44593_source.mp4" />
+          <source src="https://pixabay.com/videos/download/video-44593_small.mp4" />
         </video>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
