@@ -21,9 +21,7 @@ const Contact = () => {
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn cta-btn--resume"
-              href={
-                email ? `mailto:${email}` : 'https://github.com/Lawrencehudson23/gatsby-protfolio'
-              }
+              href={email ? `mailto:${email}` : 'shijieliu128@gmail.com'}
             >
               {btn || 'Contact Me'}
             </a>

@@ -37,29 +37,17 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
-                <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    `I love Design, Technology,
-                      and Story.`}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
-                    `I am a Developer with enthusiasm and focus on both Frontend and Backend Development.`}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphThree ||
-                    `I am passionate about building scalable software, creating effective solutions, and learning every day to grow professionally in the IT field.`}
-                </p>
-                <p className="about-wrapper__info-text">
-                  {paragraphFourth || `Feel free to contact me via email at any time.`}
-                </p>
+                <p className="about-wrapper__info-text">{paragraphOne}</p>
+                <p className="about-wrapper__info-text">{paragraphTwo}</p>
+                <p className="about-wrapper__info-text">{paragraphThree}</p>
+                <p className="about-wrapper__info-text">{paragraphFourth}</p>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a
                       target="_blank"
                       rel="noopener noreferrer"
                       className="cta-btn cta-btn--resume"
-                      href="Shijie_Resume.pdf"
+                      href={resume}
                     >
                       Resume
                     </a>

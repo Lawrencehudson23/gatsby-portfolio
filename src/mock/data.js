@@ -18,10 +18,13 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'shijie.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  paragraphOne: 'I love Design, Technology, and Story.',
+  paragraphTwo:
+    'I am a Developer with enthusiasm and focus on both Frontend and Backend Development.',
+  paragraphThree:
+    'I am passionate about building scalable software, creating effective solutions, and learning every day to grow professionally in the IT field.',
+  paragraphFourth: 'Feel free to contact me via email at any time.',
+  resume: 'Shijie_Resume.pdf',
 };
 
 // PROJECTS DATA
@@ -30,36 +33,36 @@ export const projectsData = [
     id: nanoid(),
     img: 'clothingstop.png',
     title: 'ClothingStop',
-    info: 'ecommerce website',
-    info2: 'react',
+    info: 'Responsive clothing ecommerce website',
+    info2: 'react/redux/firebase/stripe',
     url: 'https://clothingstop.herokuapp.com/',
-    repo: 'https://github.com/Lawrencehudson23/e-clothings', // if no repo, the button will not show up
+    repo: 'https://github.com/Lawrencehudson23/e-clothings',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'chamel.png',
+    title: 'Chamel',
+    info: 'Responsive Luxury Brand inspired website',
+    info2: 'react/redux/ant design/less',
+    url: 'https://chamel.netlify.app/',
+    repo: 'https://github.com/Lawrencehudson23/chamel',
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'phantoscope.png',
+    title: 'Phantoscope',
+    info: 'Responsive home decor website',
+    info2: 'react/redux/bootstrap/sass',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/Lawrencehudson23/phantoscope',
   },
 ];
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Would you like to collaborate with me?',
+  btn: 'Contact me',
+  email: 'shijieliu128@gmail.com',
 };
 
 // FOOTER DATA
