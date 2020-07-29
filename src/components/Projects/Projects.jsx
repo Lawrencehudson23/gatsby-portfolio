@@ -20,7 +20,7 @@ const Projects = () => {
       setIsMobile(true);
       setIsDesktop(false);
     }
-  }, []);
+  }, [isDesktop, isMobile]);
 
   return (
     <section id="projects">
@@ -97,7 +97,7 @@ const Projects = () => {
                           }}
                         >
                           <div data-tilt className="thumbnail rounded">
-                            <ProjectImg alt={title} filename={img} />
+                            <ProjectImg alt={title} filename={img || ''} />
                           </div>
                         </Tilt>
                       </a>

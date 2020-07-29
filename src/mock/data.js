@@ -24,7 +24,8 @@ export const aboutData = {
   paragraphThree:
     'I am passionate about building scalable software, creating effective solutions, and learning every day to grow professionally in the IT field.',
   paragraphFourth: 'Feel free to contact me via email at any time.',
-  resume: 'resume.pdf',
+  resume:
+    'https://docs.google.com/document/d/1ZBEVucg0GKdtifDv8hhcVRsMQIIz5a5GiKY_z6OhXLg/edit?usp=sharing',
 };
 
 // PROJECTS DATA
