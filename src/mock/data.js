@@ -103,5 +103,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true,
+  isEnabled: false,
 };
